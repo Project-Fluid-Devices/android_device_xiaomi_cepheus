@@ -13,4 +13,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_cepheus.mk
+    $(LOCAL_DIR)/fluid_cepheus.mk
+
+COMMON_LUNCH_CHOICES := \
+    fluid_cepheus-eng \
+    fluid_cepheus-userdebug \
+    fluid_cepheus-user 

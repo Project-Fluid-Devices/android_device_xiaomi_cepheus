@@ -15,14 +15,14 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/xiaomi/cepheus/msmnile.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common Project Fluid stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_cepheus
+PRODUCT_NAME := fluid_cepheus
 PRODUCT_DEVICE := cepheus
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9
