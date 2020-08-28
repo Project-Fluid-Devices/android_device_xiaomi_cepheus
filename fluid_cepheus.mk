@@ -18,6 +18,8 @@ $(call inherit-product, device/xiaomi/cepheus/msmnile.mk)
 # Inherit some common Project Fluid stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# GApps
+TARGET_INCLUDE_GAPPS=true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
