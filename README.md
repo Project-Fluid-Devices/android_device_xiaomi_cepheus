@@ -1,11 +1,8 @@
 Copyright (C) 2019 Paranoid Android
 
-Device Sources
+Device Sources for Xiaomi Mi 9 (cepheus)
 =========================================
-
-device: Xiaomi Mi 9
-codename: _"cepheus"_
-
+ 
 Basic   | Spec Sheet
 -------:|:-------------------------
 SoC     | Qualcomm SDM855
