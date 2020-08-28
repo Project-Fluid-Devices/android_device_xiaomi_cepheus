@@ -207,3 +207,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/cepheus/BoardConfigVendor.mk
+include vendor/miuicamera/common/BoardConfigVendor.mk
